@@ -18,7 +18,7 @@ MMLMRMMRRMML
 
 
 DESIGN
-The main logic of the module is in Rover.location function. This function accepts the command list as three arguments, corresponding to the command list's line: dimensions, position, movement. This allows to easily call the function from tests.
+The main logic of the module is in Rover.location function. This function accepts the command list as three arguments, corresponding to the command list's lines: dimensions, position, movement. These argumeents allow easy testing.
 The inputs for Rover.py can be specified in two ways:
 1. Inputs could be read from input.txt file in the working directory. An example input.txt is provided.
 2. Inputs can be specified as runtime arguments: each line of the command list corresponds to one runtime argument. The example command list above should be specified as "8 8" "1 2 E" "MMLMRMMRRMML".
